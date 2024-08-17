@@ -2,6 +2,12 @@
 
 Flexible Discord bot powered by the Ollama LLM platform, designed to interact with users using any Ollama model specified via environment variables. Ideal for engaging community conversations and providing dynamic, model-driven responses.
 
+## Example Screenshot
+
+Here is an example of how the bot interacts in a Discord chat:
+
+![Discord Bot Example](images/chat-example-1.png)
+
 ## Features
 
 - **Customizable Models**: Use any model available in your Ollama instance by specifying the model name via environment variables.
