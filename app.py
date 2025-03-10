@@ -13,7 +13,7 @@ port = os.getenv("OLLAMA_PORT", "11434")
 base_url = "http://host.docker.internal"
 OLLAMA_BASE_URL = f"{base_url}:{port}"
 
-llm = Ollama(model=MODEL, base_url=OLLAMA_BASE_URL)
+llm = Ollama(model=MODEL, base_url=OLLAMA_BASE_URL, request_timeout=8000.0)
 chat_engine = SimpleChatEngine.from_defaults(llm=llm)
 
 # Discord
